@@ -1,0 +1,79 @@
+body {
+  font-family: "Calluna", "Acumin", "Plantin", "Sabon", arial, sans-serif;
+  font-size: 16px;
+  background-image: url("./coffee.gif");
+}
+
+textarea {
+background: transparent;
+border: none;
+resize: none;
+color: #F8ECD1;
+border-left: 1px solid black;
+padding: 10px;
+text-align: left;
+}
+
+.jumbotron {
+padding: 10px;
+text-align: center;
+background-color: rgb(0, 0, 0);
+color: #F8ECD1;
+background-image: url("./coffee.gif");
+}
+
+.description {
+white-space: pre-wrap;
+}
+
+.time-block {
+text-align: center;
+border-radius: 15px;
+}
+
+.row {
+white-space: pre-wrap;
+border-top: 1px solid white;
+}
+
+.hour {
+  font: bold 12px;
+  text-align: center;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.past {
+color: white;
+}
+
+.present {
+background-color:rgba(255, 0, 149, 0.1);
+color: white;
+}
+
+.future {
+background-color:rgba(0, 255, 234, 0.1);
+color: white;
+}
+
+
+.saveBtn {
+border-left: 1px solid black;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+background: rgba(0,0,0,0.5);
+font-size: 20px
+}
+
+.footer {
+padding: 50px;
+clear: both;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+color: white
+}
+
+.footer h2 {
+font-size: 20px;
+}
