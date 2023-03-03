@@ -2,8 +2,6 @@ body {
   font-family: "Calluna", "Acumin", "Plantin", "Sabon", arial, sans-serif;
   font-size: 16px;
   background-image: url("./kape.gif");
-  
-
 }
 
 textarea {
@@ -17,11 +15,12 @@ text-align: left;
 }
 
 .jumbotron {
- padding: 20px;
+padding: 20px;
 text-align: left;
 background-color: rgb(0, 0, 0);
 color: #F8ECD1;
 background-image: url("./kape.gif");
+border-radius: 0;
 }
 
 .description {
@@ -31,6 +30,7 @@ background-image: url("./kape.gif");
 .time-block {
 text-align: center;
 border-radius: 15px;
+padding-top: 15px;
 }
 
 .row {
@@ -60,23 +60,10 @@ background-color:rgba(0, 255, 234, 0.1);
 color: white;
 }
 
-
 .saveBtn {
 border-left: 1px solid black;
 border-top-right-radius: 15px;
 border-bottom-right-radius: 15px;
 background: rgba(0,0,0,0.5);
 font-size: 20px
-}
-
-.footer {
-padding: 50px;
-clear: both;
-font-family: "Calluna", "Acumin", "Plantin", "Sabon", arial, sans-serif;
-text-align: center;
-color: white
-}
-
-.footer h2 {
-font-size: 20px;
 }
