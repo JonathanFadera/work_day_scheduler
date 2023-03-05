@@ -1,19 +1,9 @@
 //Variables declaration
 let $currentDayEl = $("#currentDay");
-$currentDayEl.text(moment().format("dddd, MMMM Do"));
+$currentDayEl.text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
 let containerEl = $(".container");
 let hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
-let hoursDisplay = [
-  "9AM",
-  "10AM",
-  "11AM",
-  "12PM",
-  "1PM",
-  "2PM",
-  "3PM",
-  "4PM",
-  "5PM",
-];
+let hoursDisplay = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"];
 let currentHour = parseInt(moment().format("h"));
 
 // loop to create the rows and columns for business hours
@@ -28,7 +18,16 @@ for (let i = 0; i < hoursArray.length; i++) {
   } else {
     cssClass = "present";
   }
-  let getLocalStorage = localStorage.getItem(hour) || ""; //get the Local Storage if already set
+
+  // function to update the current day and time
+  function tick() {
+    var now = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+    $currentDayEl.text(now);
+  }
+  setInterval(tick, 1000);
+  
+  // get the Local Storage if already set
+  let getLocalStorage = localStorage.getItem(hour) || "";
   let row = `<div class="row">
   <div class="col-2 time-block hour">${hourDisplay}</div>
   <textarea class="col-8 ${cssClass}">${getLocalStorage}</textarea>
