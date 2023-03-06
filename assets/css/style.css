@@ -48,17 +48,17 @@ border-top: 1px solid #F8ECD1;
 
 .past {
 background-color:rgba(255, 255, 255, 0.260);
-color: #3c2a21;
+color: black;
 }
 
 .present {
 background-color:rgba(255, 0, 149, 0.25);
-color: #3c2a21;
+color: black;
 }
 
 .future {
 background-color:rgba(0, 255, 234, 0.25);
-color: #3c2a21;
+color: black;
 }
 
 .saveBtn {
