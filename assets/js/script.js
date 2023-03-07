@@ -4,8 +4,9 @@ $(document).ready(function () {
   $currentDayEl.text(moment().format("dddd, MMMM Do YYYY, hh:mm:ss a"));
   let containerEl = $(".container");
   let hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
-  let hoursDisplay = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"];
-  let currentHour = parseInt(moment().format("h"));
+  let hoursDisplay = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"]
+  let currentHour = parseInt(moment().format("HH"));
+  console.log(currentHour);
 
   // loop to create the html for the planner
   for (let i = 0; i < hoursArray.length; i++) {
@@ -18,6 +19,7 @@ $(document).ready(function () {
       cssClass = "past";
     } else {
       cssClass = "present";
+      console.log(cssClass);
     }
     // get the Local Storage if already set
     let getLocalStorage = localStorage.getItem(hour) || "";
