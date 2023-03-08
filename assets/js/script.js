@@ -19,6 +19,8 @@ $(document).ready(function () {
       cssClass = "past";
     } else {
       cssClass = "present";
+      console.log(hour);
+      console.log(hourDisplay);
       console.log(cssClass);
     }
     // get the Local Storage if already set
