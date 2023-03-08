@@ -4,8 +4,6 @@
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
-
 ## User Story
 
 ```md
@@ -36,6 +34,18 @@ THEN the saved events persist
 The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+
+
+## Credits
+
+https://tenor.com/view/coffee-coffee-shop-cafe-street-gif-17572486 - background image
+
+https://releases.jquery.com/jquery/ - jQuery versions
+
+https://cdnjs.com/libraries/moment.js - Parse, validate, manipulate, and display dates
+
+https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FSF-PT-01-2023-U-LOLC/-/tree/main/Week_05-Third-Party-APIs/01-Activities - week 5 class modules activities
+
 
 
 ## Review
