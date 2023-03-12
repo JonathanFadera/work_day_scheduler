@@ -44,8 +44,9 @@ https://releases.jquery.com/jquery/ - jQuery versions
 
 https://cdnjs.com/libraries/moment.js - Parse, validate, manipulate, and display dates
 
-https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FSF-PT-01-2023-U-LOLC/-/tree/main/Week_05-Third-Party-APIs/01-Activities - week 5 class modules activities
+https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp - indicates a big box for calling extra attention to some special content or information.
 
+https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FSF-PT-01-2023-U-LOLC/-/tree/main/Week_05-Third-Party-APIs/01-Activities - week 5 class modules activities
 
 
 ## Deployed Application Link
