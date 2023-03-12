@@ -50,5 +50,7 @@ https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FSF-PT-01-2023-U-LO
 
 ## Deployed Application Link
 
+https://jonathanfadera.github.io/work_day_scheduler/
+
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
