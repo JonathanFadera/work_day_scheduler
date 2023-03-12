@@ -31,7 +31,7 @@ THEN the saved events persist
 ```
 ## Mock Up
 
-The following animation demonstrates the application functionality:
+The following screenshot demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./assets/css/Screenshot%202023-03-11%20at%208.32.15%20PM.png)
 
