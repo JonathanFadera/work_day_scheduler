@@ -38,7 +38,7 @@ The following screenshot demonstrates the application functionality:
 
 ## Credits
 
-https://tenor.com/view/coffee-coffee-shop-cafe-street-gif-17572486 - background image
+https://wallpapercave.com/w/uwp1016486 - background image
 
 https://releases.jquery.com/jquery/ - jQuery versions
 
